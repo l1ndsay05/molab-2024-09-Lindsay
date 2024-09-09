@@ -1,1 +1,12 @@
+import UIKit
+//import Cocoa - why doesn't this work?
 
+//checkpoint 1
+
+let celsius = 15
+var fahrenheit = celsius*9
+fahrenheit/=5
+fahrenheit += 32
+print("The temperature is \(celsius)° Celsius and \(fahrenheit)° Fahrenheit")
+
+//most language syntax is similar to what I learned in python so far!

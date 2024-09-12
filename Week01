@@ -10,3 +10,13 @@ fahrenheit += 32
 print("The temperature is \(celsius)° Celsius and \(fahrenheit)° Fahrenheit")
 
 //most language syntax is similar to what I learned in python so far!
+
+//checkpoint 2
+
+var items = ["Rembrandt", "Warhol", "Pollock", "Dali", "Picasso", "Michalangelo", "Picasso"]
+items.count
+var items2 = Set(["Rembrandt", "Warhol", "Pollock", "Dali", "Picasso", "Michalangelo", "Picasso"])
+
+print(items2)
+
+//the idea of sets is interesting and new to me, along with enums since they are both new concepts 

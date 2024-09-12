@@ -20,3 +20,22 @@ var items2 = Set(["Rembrandt", "Warhol", "Pollock", "Dali", "Picasso", "Michalan
 print(items2)
 
 //the idea of sets is interesting and new to me, along with enums since they are both new concepts 
+
+//checkpoint 3
+
+for i in 1...100{
+    if i.isMultiple(of: 3) && i.isMultiple(of: 5){
+        print("Fizz Buzz")
+    } else if i.isMultiple(of: 3){
+        print("Fizz")
+    } else if i.isMultiple(of: 5){
+        print("Buzz")
+    } else {
+        print(i)
+    }
+
+}
+
+//The idea of for loops, while loops, and if, else statements are familiar to intro to python course 
+//that I took before, but the ternary operators and enums confuse me. I'm still trying to get familiar 
+//with them but I do also agree that these built in functions make the coding process easier to read

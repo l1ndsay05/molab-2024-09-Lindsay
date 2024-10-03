@@ -27,6 +27,7 @@ struct color: View {
         NavigationStack{
             Form{
                 Section ("Value for Red:"){
+                    //make it a slider instead
                     TextField("Red Value", value: $redColor, format: .number)
                         .keyboardType(.decimalPad)
                         .focused($isFocused)

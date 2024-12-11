@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct Reschedule: View {
+    @EnvironmentObject var neuro: Neurotransmitter
     var body: some View {
-        @EnvironmentObject var neuro: Neurotransmitter
             ZStack{
                 Color(red: 1.0, green: 0.82, blue: 0.86).ignoresSafeArea()
                 VStack{

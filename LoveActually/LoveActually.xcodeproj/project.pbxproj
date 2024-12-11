@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9E22C1012CF0D9E200025936 /* LoveActually.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveActually.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E22C1012CF0D9E200025936 /* LoveActually.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LoveActually.app; path = "/Users/linds/Documents/App dev/molab-2024-09-Lindsay/LoveActually/build/Debug-iphoneos/LoveActually.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				9E22C1032CF0D9E200025936 /* LoveActually */,
-				9E22C1022CF0D9E200025936 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		9E22C1022CF0D9E200025936 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9E22C1012CF0D9E200025936 /* LoveActually.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = 9E22C0F82CF0D9E100025936;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 9E22C1022CF0D9E200025936 /* Products */;
+			productRefGroup = 9E22C0F82CF0D9E100025936;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
